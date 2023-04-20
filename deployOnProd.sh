@@ -4,7 +4,7 @@
 # This script helps you to deploy a war file from your test environment to your prod environment
 
 # adding date to war filename to identify when was this war deployed 
-(some of you might say not needed, but I have an OCD of putting timestamp in almost everything 2016-03-08_11:56 IST :D )
+# (some of you might say not needed, but I have an OCD of putting timestamp in almost everything 2016-03-08_11:56 IST :D )
 myDate=`date +%Y-%m-%d_%H%M`
 warName=$myDate"_ROOT.war"
 
