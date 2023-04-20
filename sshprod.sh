@@ -1,6 +1,6 @@
 #!/bin/sh
 # This script helps you in sshing into your EBS-backed instances with dynamic IPs
-# On envoking this script, it adds ssh-access to the machines, then get theit IPs and ssh into instances and on exiting revokes the ssh access from them
+# On envoking this script, it adds ssh-access to the machines, then get their IPs and ssh into instances and on exiting revokes the ssh access from them
 
 # you need to install AWS cli and add a credential for your prod environment
 # you can do it by running: aws configure --profile=prod
